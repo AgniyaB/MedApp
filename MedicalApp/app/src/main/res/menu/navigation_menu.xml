@@ -6,6 +6,14 @@
         android:title="@string/home" />
     <item
         android:id="@+id/profile"
-        android:icon="@drawable/bg2"
+        android:icon="@drawable/bg"
         android:title="@string/profile" />
+    <item
+        android:id="@+id/tasks"
+        android:icon="@drawable/bg"
+        android:title="@string/tasks" />
+    <item
+        android:id="@+id/patients"
+        android:icon="@drawable/bg"
+        android:title="@string/patients" />
 </menu>

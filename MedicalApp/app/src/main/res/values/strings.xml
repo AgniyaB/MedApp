@@ -6,4 +6,6 @@
     <string name="enter">Войти</string>
     <string name="home">Главная</string>
     <string name="profile">Профиль</string>
+    <string name="tasks">Задачи</string>
+    <string name="patients">Пациенты</string>
 </resources>
