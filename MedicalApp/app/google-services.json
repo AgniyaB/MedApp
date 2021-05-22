@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "424711537457",
+    "project_id": "medicalapp-e4586",
+    "storage_bucket": "medicalapp-e4586.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:424711537457:android:0d1d9ba0abc2d69125e610",
+        "android_client_info": {
+          "package_name": "ru.itmo.medicalapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "424711537457-fb6ual0roguc3b28hbnu7bekstg9i1ih.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ru.itmo.medicalapp",
+            "certificate_hash": "bed41958765010d175ebedfbe7e4ca66ec39b403"
+          }
+        },
+        {
+          "client_id": "424711537457-5r2p39mudohs5bt9mnh487g56j0nd0gd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBsuFqKsADQKG54wPuV0lZmdVtdKRLUGhA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "424711537457-5r2p39mudohs5bt9mnh487g56j0nd0gd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

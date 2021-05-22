@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MedicalApp</string>
+    <string name="email">Email</string>
+    <string name="pass">Password</string>
+    <string name="ent_in_akk">Войдите в свой аккаунт</string>
+    <string name="enter">Войти</string>
+</resources>
