@@ -46,7 +46,7 @@
 
 
     <ImageView
-        android:id="@+id/imageView7"
+        android:id="@+id/info"
         android:layout_width="40dp"
         android:layout_height="40dp"
         app:srcCompat="@android:drawable/ic_menu_info_details"
@@ -78,7 +78,7 @@
         tools:layout_editor_absoluteY="440dp" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/name"
         android:layout_width="271dp"
         android:layout_height="22dp"
         android:layout_marginBottom="604dp"

@@ -4,6 +4,10 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import com.google.android.material.bottomnavigation.BottomNavigationView
+import ru.itmo.medicalapp.home.HomeFragment
+import ru.itmo.medicalapp.patients.PatientsFragment
+import ru.itmo.medicalapp.profile.ProfileFragment
+import ru.itmo.medicalapp.tasks.TasksFragment
 
 class MainActivity : AppCompatActivity() {
     private val onNavigationItemSelectedListener =
@@ -15,6 +19,15 @@ class MainActivity : AppCompatActivity() {
                     return@OnNavigationItemSelectedListener true
                 }
                 R.id.profile -> {
+                    loadFragment(ProfileFragment())
+                    return@OnNavigationItemSelectedListener true
+                }
+                R.id.tasks -> {
+                    loadFragment(TasksFragment())
+                    return@OnNavigationItemSelectedListener true
+                }
+                R.id.patients -> {
+                    loadFragment(PatientsFragment())
                     return@OnNavigationItemSelectedListener true
                 }
             }

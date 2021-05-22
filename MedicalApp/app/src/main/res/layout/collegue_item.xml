@@ -7,7 +7,6 @@
     android:layout_height="115dp"
     tools:context=".Colleagues">
 
-
     <View
         android:id="@+id/view2"
         android:layout_width="360dp"
@@ -20,7 +19,7 @@
         android:background="@drawable/list_of_colleagues" />
 
     <ImageView
-        android:id="@+id/imageView7"
+        android:id="@+id/info"
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:layout_alignBottom="@+id/view2"
@@ -32,7 +31,7 @@
         tools:layout_editor_absoluteY="110dp" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignTop="@+id/view2"

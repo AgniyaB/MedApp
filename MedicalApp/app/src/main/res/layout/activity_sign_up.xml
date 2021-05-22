@@ -22,7 +22,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.175"
             app:layout_constraintStart_toEndOf="@+id/imageView3"
-            app:layout_constraintTop_toBottomOf="@+id/textView2"
+            app:layout_constraintTop_toBottomOf="@+id/name"
             app:layout_constraintVertical_bias="0.709" />
 
         <EditText
@@ -135,7 +135,7 @@
             app:srcCompat="@drawable/logo2" />
 
         <TextView
-            android:id="@+id/textView2"
+            android:id="@+id/name"
             android:layout_width="218dp"
             android:layout_height="73dp"
             android:layout_marginTop="24dp"
