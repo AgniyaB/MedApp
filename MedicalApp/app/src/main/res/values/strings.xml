@@ -4,4 +4,6 @@
     <string name="pass">Password</string>
     <string name="ent_in_akk">Войдите в свой аккаунт</string>
     <string name="enter">Войти</string>
+    <string name="home">Главная</string>
+    <string name="profile">Профиль</string>
 </resources>

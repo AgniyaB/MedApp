@@ -32,8 +32,7 @@
             android:inputType="textEmailAddress"
             app:layout_constraintEnd_toEndOf="@+id/view1"
             app:layout_constraintStart_toStartOf="@+id/view1"
-            app:layout_constraintTop_toTopOf="@+id/view1"
-            app:met_singleLineEllipsis="true"/>
+            app:layout_constraintTop_toTopOf="@+id/view1" />
 
         <View
             android:id="@+id/view2"
@@ -109,7 +108,7 @@
             tools:ignore="ContentDescription" />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/enter_button"
             android:layout_width="274dp"
             android:layout_height="42dp"
             android:layout_marginTop="28dp"
