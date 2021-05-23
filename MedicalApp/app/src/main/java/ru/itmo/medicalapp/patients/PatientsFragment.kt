@@ -1,5 +1,6 @@
 package ru.itmo.medicalapp.patients
 
+import android.content.Context
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -13,6 +14,21 @@ import ru.itmo.medicalapp.R
 class PatientsFragment : Fragment() {
     private lateinit var recycler: RecyclerView
     private val adapter = Adapter(emptyList())
+
+    interface PatientsFragmentListener {
+        fun onAddNewPatient()
+    }
+
+    private lateinit var listener: PatientsFragmentListener
+
+    override fun onAttach(context: Context) {
+        super.onAttach(context)
+        if (context is PatientsFragmentListener) {
+            listener = context
+        } else {
+            throw ClassCastException("$context is not PatientsFragmentListener")
+        }
+    }
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -28,6 +44,11 @@ class PatientsFragment : Fragment() {
         recycler.layoutManager = LinearLayoutManager(context, LinearLayoutManager.VERTICAL, false)
         recycler.adapter = adapter
         loadData()
+
+        val floatingButton = view.findViewById<View>(R.id.floating_action_button)
+        floatingButton.setOnClickListener {
+            listener.onAddNewPatient()
+        }
     }
 
     private fun loadData() {

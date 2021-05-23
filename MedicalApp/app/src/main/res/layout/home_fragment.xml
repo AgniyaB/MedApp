@@ -12,7 +12,7 @@
 
 
         <View
-            android:id="@+id/viewP"
+            android:id="@+id/patients"
             android:layout_width="130dp"
             android:layout_height="130dp"
             android:background="@drawable/home_shape"
@@ -22,7 +22,7 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <View
-            android:id="@+id/view7"
+            android:id="@+id/colleagues"
             android:layout_width="130dp"
             android:layout_height="130dp"
             android:background="@drawable/home_shape"
@@ -32,14 +32,14 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <View
-            android:id="@+id/view1"
+            android:id="@+id/tasks"
             android:layout_width="130dp"
             android:layout_height="130dp"
             android:layout_marginStart="56dp"
             android:layout_marginTop="40dp"
             android:background="@drawable/home_shape"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/viewP" />
+            app:layout_constraintTop_toBottomOf="@+id/patients" />
 
         <View
             android:id="@+id/view2"
@@ -49,7 +49,7 @@
             android:layout_marginEnd="56dp"
             android:background="@drawable/home_shape"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/view7" />
+            app:layout_constraintTop_toBottomOf="@+id/colleagues" />
 
         <View
             android:id="@+id/view11"
@@ -59,7 +59,7 @@
             android:layout_marginTop="40dp"
             android:background="@drawable/home_shape"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/view1" />
+            app:layout_constraintTop_toBottomOf="@+id/tasks" />
 
         <View
             android:id="@+id/view13"
@@ -79,9 +79,9 @@
             android:text="Пациенты"
             android:textColor="#D6D6D6"
             android:textSize="18sp"
-            app:layout_constraintBottom_toBottomOf="@+id/viewP"
-            app:layout_constraintEnd_toEndOf="@+id/viewP"
-            app:layout_constraintStart_toStartOf="@+id/viewP" />
+            app:layout_constraintBottom_toBottomOf="@+id/patients"
+            app:layout_constraintEnd_toEndOf="@+id/patients"
+            app:layout_constraintStart_toStartOf="@+id/patients" />
 
         <TextView
             android:id="@+id/textView11"
@@ -91,9 +91,9 @@
             android:text="Коллеги"
             android:textColor="#D6D6D6"
             android:textSize="18sp"
-            app:layout_constraintBottom_toBottomOf="@+id/view7"
-            app:layout_constraintEnd_toEndOf="@+id/view7"
-            app:layout_constraintStart_toStartOf="@+id/view7" />
+            app:layout_constraintBottom_toBottomOf="@+id/colleagues"
+            app:layout_constraintEnd_toEndOf="@+id/colleagues"
+            app:layout_constraintStart_toStartOf="@+id/colleagues" />
 
         <TextView
             android:id="@+id/textView12"
@@ -103,19 +103,19 @@
             android:text="Задачи"
             android:textColor="#D6D6D6"
             android:textSize="18sp"
-            app:layout_constraintBottom_toBottomOf="@+id/view1"
-            app:layout_constraintEnd_toEndOf="@+id/view1"
+            app:layout_constraintBottom_toBottomOf="@+id/tasks"
+            app:layout_constraintEnd_toEndOf="@+id/tasks"
             app:layout_constraintHorizontal_bias="0.483"
-            app:layout_constraintStart_toStartOf="@+id/view1" />
+            app:layout_constraintStart_toStartOf="@+id/tasks" />
 
         <ImageView
             android:id="@+id/imageView12"
             android:layout_width="80dp"
             android:layout_height="60dp"
             android:layout_marginTop="17dp"
-            app:layout_constraintEnd_toEndOf="@+id/viewP"
-            app:layout_constraintStart_toStartOf="@+id/viewP"
-            app:layout_constraintTop_toTopOf="@+id/viewP"
+            app:layout_constraintEnd_toEndOf="@+id/patients"
+            app:layout_constraintStart_toStartOf="@+id/patients"
+            app:layout_constraintTop_toTopOf="@+id/patients"
             app:srcCompat="@drawable/ic_patient" />
 
         <ImageView
@@ -123,9 +123,9 @@
             android:layout_width="80dp"
             android:layout_height="60dp"
             android:layout_marginTop="17dp"
-            app:layout_constraintEnd_toEndOf="@+id/view7"
-            app:layout_constraintStart_toStartOf="@+id/view7"
-            app:layout_constraintTop_toTopOf="@+id/view7"
+            app:layout_constraintEnd_toEndOf="@+id/colleagues"
+            app:layout_constraintStart_toStartOf="@+id/colleagues"
+            app:layout_constraintTop_toTopOf="@+id/colleagues"
             app:srcCompat="@drawable/ic_colleagues" />
 
         <ImageView
@@ -133,10 +133,10 @@
             android:layout_width="80dp"
             android:layout_height="60dp"
             android:layout_marginTop="17dp"
-            app:layout_constraintEnd_toEndOf="@+id/view1"
+            app:layout_constraintEnd_toEndOf="@+id/tasks"
             app:layout_constraintHorizontal_bias="0.58"
-            app:layout_constraintStart_toStartOf="@+id/view1"
-            app:layout_constraintTop_toTopOf="@+id/view1"
+            app:layout_constraintStart_toStartOf="@+id/tasks"
+            app:layout_constraintTop_toTopOf="@+id/tasks"
             app:srcCompat="@drawable/ic_tasks" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>

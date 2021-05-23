@@ -12,22 +12,21 @@ class WelcomeActivity : AppCompatActivity() {
         setContentView(R.layout.activity_welcome)
 
         val btnEnter: Button = findViewById(R.id.btn_go)
-        btnEnter.setOnClickListener{
+        btnEnter.setOnClickListener {
             openLogIn()
         }
         val btnReg: Button = findViewById(R.id.btn_reg)
-        btnReg.setOnClickListener{
-            openSigUp()
+        btnReg.setOnClickListener {
+            openSignUp()
         }
     }
 
-    private fun openLogIn(){
+    private fun openLogIn() {
         val intent = Intent(this, LogIn::class.java)
         startActivity(intent)
-
     }
 
-    private fun openSigUp(){
+    private fun openSignUp() {
         val intent = Intent(this, SignUp::class.java)
         startActivity(intent)
     }
